@@ -2,3 +2,35 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --padding: 3vw;
+
+  --header-background-image: url(/images/cover-image-dark.png);
+  --header-decoration-color: #ff0070;
+  --header-decoration-font-family: 'IBM Plex mono', Arial, sans-serif;
+  --header-decoration-font-size: 18px;
+
+  --header-menu-color:#ff0070;
+  --header-menu-font-family: 'IBM Plex mono', Arial, sans-serif;
+  --header-menu-font-size: 18px;
+
+  --header-title-color: #DB00FF;
+  --header-title-shadow-color: #FF0070;
+  --header-title-font-family:'IBM Plex mono', Arial, sans-serif;
+  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
+  --header-paragraph-color: #000028;
+  --header-paragraph-bacground-color: #FF0070;
+  --header-paragraph-font-family: 'IBM Plex mono', Arial, sans-serif;
+  --header-paragraph-font-size: 18px;
+
+  --main-background-color: #000028;
+
+  --heading-color: #FF0070;
+  --heading-font-family:'IBM Plex mono', Arial, sans-serif;
+  --heading-font-size: 18px;
+
+  --text-color: #f1b2ce;
+  --text-font-family:'IBM Plex mono', Arial, sans-serif;
+  --text-font-size: 18px;
+ }
