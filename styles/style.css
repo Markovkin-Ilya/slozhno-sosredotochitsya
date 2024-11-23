@@ -1,5 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .header {
+  height: 100vh;
   background-image: var(--header-background-image);
   background-size: cover;
   background-position: center;
@@ -227,15 +228,18 @@
 
 .footer {
   position: relative;
+  height: 100vh;
+  display: grid;
 }
 
 .footer_title {
-  padding: var(--footer-title-padding) var(--padding);
+  justify-self: center;
+  align-self: center;
   color: var(--header-title-color);
   font-family: var(--header-title-font-family);
   font-size: var(--header-title-font-size);
   text-shadow: 2px 2px 0 var(--header-title-shadow-color);
-  text-align: center;
+  
 }
 
 .footer::after {
@@ -262,6 +266,7 @@
 
 .page {
   background-color: var(--page-background-color);
+  background-attachment: fixed;
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
