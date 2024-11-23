@@ -1,3 +1,46 @@
+.page.theme_light {
+  --page-background-color: #fff1f7;
+
+  --header-background-image: url(/images/cover-image-light.png);
+  --header-decoration-color: #353430;
+  --header-menu-color:#353430;
+  --header-title-color: #FFC2E6;
+  --header-title-shadow-color: #FF0070;
+  --header-paragraph-color: #353430;
+  --header-paragraph-bacground-color: #FF8DCB;
+  
+  --heading-color: #353430;
+  --text-color: #353430;
+  --link-shadow-color:#FF8DCB;
+}
+
+.theme_light .header__decoration {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  
+  :root {
+    --page-background-color: #fff1f7;
+
+    --header-background-image: url(/images/cover-image-light.png);
+    --header-decoration-color: #353430;
+    --header-menu-color:#353430;
+    --header-title-color: #FFC2E6;
+    --header-title-shadow-color: #FF0070;
+    --header-paragraph-color: #353430;
+    --header-paragraph-bacground-color: #FF8DCB;
+    
+    --heading-color: #353430;
+  
+    --text-color: #353430;
+    --link-shadow-color:#FF8DCB;
+  }
+
+  .header__decoration {
+    display: none;
+  }
+}
 /*
   Специально для светлой темы при наличии класса.
   Здесь окажутся стили, которые нужно переопределить принудительно,
@@ -10,3 +53,4 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+

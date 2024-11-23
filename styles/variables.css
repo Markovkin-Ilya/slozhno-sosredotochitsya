@@ -4,6 +4,7 @@
 */
 :root {
   --padding: 3vw;
+  --page-background-color: #000028;
 
   --header-background-image: url(/images/cover-image-dark.png);
   --header-decoration-color: #ff0070;
@@ -23,9 +24,7 @@
   --header-paragraph-bacground-color: #FF0070;
   --header-paragraph-font-family: 'IBM Plex mono', Arial, sans-serif;
   --header-paragraph-font-size: 18px;
-
-  --main-background-color: #000028;
-
+  
   --heading-color: #FF0070;
   --heading-font-family:'IBM Plex mono', Arial, sans-serif;
   --heading-font-size: 18px;
@@ -33,4 +32,20 @@
   --text-color: #f1b2ce;
   --text-font-family:'IBM Plex mono', Arial, sans-serif;
   --text-font-size: 18px;
+  --link-shadow-color:#ff0070;
+
+  --footer-title-padding: calc(50vw + 100px);
  }
+
+ @media (orientation: landscape) and (min-width: 1024px) {
+
+  :root {
+    --footer-title-padding: calc(20vw + 100px);
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-title-font-size:clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}

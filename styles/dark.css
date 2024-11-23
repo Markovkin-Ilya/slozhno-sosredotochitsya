@@ -1,3 +1,24 @@
+.page.theme_dark {
+  --page-background-color: #000028;
+
+  --header-background-image: url(/images/cover-image-dark.png);
+  --header-decoration-color: #ff0070;
+  --header-menu-color:#ff0070;
+  --header-title-color: #DB00FF;
+  --header-title-shadow-color: #FF0070;
+  --header-paragraph-color: #000028;
+  --header-paragraph-bacground-color: #FF0070;
+  
+  --heading-color: #FF0070;
+
+  --text-color: #f1b2ce;
+  --link-shadow-color:#ff0070;
+}
+
+.theme_dark .header__decoration {
+  display: block;
+}
+
 /*
   Специально для тёмной темы при наличии класса,
   здесь окажутся стили, которые нужно переопределить принудительно,
@@ -10,3 +31,4 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
