@@ -1,5 +1,5 @@
 .page.theme_light {
-  --page-background-image: url(/images/cover-image-light.png);
+  --page-background-image: url(../images/cover-image-light.png);
 
   --header-decoration-color: #353430;
   --header-menu-color:#353430;
@@ -20,7 +20,7 @@
 @media (prefers-color-scheme: light) {
   
   :root {
-    --page-background-image: url(/images/cover-image-light.png);
+    --page-background-image: url(../images/cover-image-light.png);
 
     --header-decoration-color: #353430;
     --header-menu-color:#353430;

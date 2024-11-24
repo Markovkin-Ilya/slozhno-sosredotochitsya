@@ -1,5 +1,5 @@
 .page.theme_dark {
-  --page-background-image: url(/images/cover-image-dark.png);
+  --page-background-image: url(../images/cover-image-dark.png);
 
   --header-decoration-color: #ff0070;
   --header-menu-color:#ff0070;

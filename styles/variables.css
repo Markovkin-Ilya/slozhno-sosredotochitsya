@@ -4,7 +4,7 @@
 */
 :root {
   --padding: 2.5vw;
-  --page-background-image: url(/images/cover-image-dark.png);
+  --page-background-image: url(../images/cover-image-dark.png);
 
   --header-decoration-color: #ff0070;
   --header-decoration-font-family: 'IBM Plex mono', Arial, sans-serif;
