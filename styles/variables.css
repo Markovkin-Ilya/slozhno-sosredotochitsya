@@ -5,11 +5,13 @@
 :root {
   --padding: 2.5vw;
   --page-background-image: url(../images/cover-image-dark.png);
+  --page-color:#000028;
 
   --header-decoration-color: #ff0070;
   --header-decoration-font-family: 'IBM Plex mono', Arial, sans-serif;
   --header-decoration-font-size: 18px;
 
+  --header-menu-hover-color: rgb(255, 0, 112, 0.4);
   --header-menu-color:#ff0070;
   --header-menu-font-family: 'IBM Plex mono', Arial, sans-serif;
   --header-menu-font-size: 18px;

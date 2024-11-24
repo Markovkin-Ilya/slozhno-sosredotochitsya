@@ -1,7 +1,9 @@
 .page.theme_light {
   --page-background-image: url(../images/cover-image-light.png);
+  --page-color:#fff1f7;
 
   --header-decoration-color: #353430;
+  --header-menu-hover-color: rgb(53, 52, 48, 0.4);
   --header-menu-color:#353430;
   --header-title-color: #FFC2E6;
   --header-title-shadow-color: #FF0070;
@@ -21,8 +23,10 @@
   
   :root {
     --page-background-image: url(../images/cover-image-light.png);
+    --page-color:#fff1f7;
 
     --header-decoration-color: #353430;
+    --header-menu-hover-color: rgb(53, 52, 48, 0.4);
     --header-menu-color:#353430;
     --header-title-color: #FFC2E6;
     --header-title-shadow-color: #FF0070;
