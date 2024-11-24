@@ -1,7 +1,6 @@
 .page.theme_light {
-  --page-background-color: #fff1f7;
+  --page-background-image: url(/images/cover-image-light.png);
 
-  --header-background-image: url(/images/cover-image-light.png);
   --header-decoration-color: #353430;
   --header-menu-color:#353430;
   --header-title-color: #FFC2E6;
@@ -21,9 +20,8 @@
 @media (prefers-color-scheme: light) {
   
   :root {
-    --page-background-color: #fff1f7;
+    --page-background-image: url(/images/cover-image-light.png);
 
-    --header-background-image: url(/images/cover-image-light.png);
     --header-decoration-color: #353430;
     --header-menu-color:#353430;
     --header-title-color: #FFC2E6;

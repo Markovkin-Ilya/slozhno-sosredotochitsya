@@ -3,10 +3,9 @@
   и их переопределение под различные устройства
 */
 :root {
-  --padding: 3vw;
-  --page-background-color: #000028;
+  --padding: 2.5vw;
+  --page-background-image: url(/images/cover-image-dark.png);
 
-  --header-background-image: url(/images/cover-image-dark.png);
   --header-decoration-color: #ff0070;
   --header-decoration-font-family: 'IBM Plex mono', Arial, sans-serif;
   --header-decoration-font-size: 18px;
@@ -40,6 +39,7 @@
  @media (orientation: landscape) and (min-width: 1024px) {
 
   :root {
+    --padding: 2vw;
     --footer-title-padding: calc(20vw + 100px);
   }
 }

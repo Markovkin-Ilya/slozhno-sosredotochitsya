@@ -1,7 +1,6 @@
 .page.theme_dark {
-  --page-background-color: #000028;
+  --page-background-image: url(/images/cover-image-dark.png);
 
-  --header-background-image: url(/images/cover-image-dark.png);
   --header-decoration-color: #ff0070;
   --header-menu-color:#ff0070;
   --header-title-color: #DB00FF;
